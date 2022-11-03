@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+
+.logo{
+    width:50px;
+    cursor:pointer;
+}
+    nav{
+        width: 100%;
+        height: 80px;
+        background-color:lightskyblue;
+        opacity: 0.9;
+        line-height: 83px;
+    
+    }
+   /* #main{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        background-repeat: no-repeat;
+        }*/
+        #banner_photo{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            z-index: -1;
+        }
+
+    nav ul{
+        float: right;
+        margin-right: 30px;
+    
+    }
+    nav ul li{
+        list-style-type: none;
+        display: inline-block;
+        transition: 0.8s all;
+    
+    }
+    nav ul li:hover{
+        background-color: #f39d1a;
+    
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 30px;
+    
+    }
+    h3 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+        color: rgb(82, 180, 212);
+        margin: 40px 0 10px;
+    }
+.h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: black;
+    top:5px;}
+.hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    
+  } 
+.column{
+    margin: 0 10px;
+    width:50%;
+    /* height: 100px; */
+    /* padding:5px; */
+}
+.row {
+    margin: 50px;
+    display:flex;
+    
+}
+.fig1{
+    width:100%;
+    height: 300px;
+}
+.Atr1{
+    margin-left: 10px;
+
+}
+.Atr1 p{
+    margin: 0 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Titull1 {
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+.fig2{
+    width:100%;
+    height: 300px;
+}
+.Atr2{
+    margin-left: 10px;
+
+}
+.Atr2 p{
+    margin: 0 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Titull2 {
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+
+}
+.fig3{
+    width:100%;
+    height: 300px;
+}
+.Atr3{
+    margin-left: 10px;
+
+}
+.Atr3 p{
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Titull3 {
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+.fig4{
+    width:100%;
+    height: 300px;
+}
+.Atr4{
+    margin-left: 10px;
+
+}
+.Atr4 p{
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Titull4 {
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+.button-p
+{
+    border: 1px solid #f39d1a;
+    margin: 20px 8px;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: #f39d1a;
+    color: #fff;
+    border-radius: 20px;
+
+}
+.button-p:hover{
+    background-color:#fff ;
+    color: #f39d1a; 
+}
+
+
+
+
+footer{
+    
+    background: black;
+    height: auto;
+    width:100%;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color:#fff;
+}
+.footer-content{
+     display:flex;
+     align-items: center;
+     justify-content:center;
+     flex-direction: column;
+     text-align: center;
+
+}
+.footer-content h3{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p  {
+    color: white;
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+
+}
+.socials{
+     list-style: none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 1rem 0 3rem 0;
+}
+.socials li{
+     margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color:aqua
+}
+.footer-bottom{
+    background: black;
+    width:100%;
+    padding:20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    color: white;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity:.4;
+    font-weight:200;
+}
+
